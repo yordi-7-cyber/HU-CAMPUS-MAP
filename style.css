@@ -114,6 +114,21 @@ html, body {
   color: var(--text-primary);
   text-transform: uppercase;
   transition: color var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  transition: filter var(--transition);
+}
+
+[data-theme="light"] .logo-img {
+  filter: none;
 }
 
 .logo-hu {
@@ -121,6 +136,12 @@ html, body {
   opacity: 0.55;
   font-weight: 300;
   margin-right: 0.1em;
+}
+
+.logo-hu-fallback {
+  font-style: italic;
+  opacity: 0.55;
+  font-weight: 300;
 }
 
 .topbar-right {
