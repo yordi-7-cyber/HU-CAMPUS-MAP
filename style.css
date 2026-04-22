@@ -116,6 +116,13 @@ html, body {
   transition: color var(--transition);
 }
 
+.logo-hu {
+  font-style: italic;
+  opacity: 0.55;
+  font-weight: 300;
+  margin-right: 0.1em;
+}
+
 .topbar-right {
   display: flex;
   align-items: center;
@@ -275,7 +282,19 @@ html, body {
   font-weight: 300;
   color: var(--text-secondary);
   letter-spacing: 0.04em;
-  margin-bottom: 2.2rem;
+  margin-bottom: 0.6rem;
+  transition: color var(--transition);
+}
+
+.slogan {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--text-secondary);
+  letter-spacing: 0.06em;
+  margin-bottom: 2rem;
+  opacity: 0.75;
   transition: color var(--transition);
 }
 
