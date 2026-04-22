@@ -32,7 +32,14 @@
 
   <!-- Top bar -->
   <header class="topbar">
-    <div class="logo"><span class="logo-hu">HU</span> <span data-i18n="appName">Wanderlust</span></div>
+    <div class="logo">
+      <img src="https://www.haramaya.edu.et/wp-content/uploads/2021/03/HU-logo.png"
+           alt="Haramaya University"
+           class="logo-img"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+      <span class="logo-hu-fallback" style="display:none">HU</span>
+      <span data-i18n="appName">Wanderlust</span>
+    </div>
     <div class="topbar-right">
       <!-- Language selector -->
       <div class="lang-selector" id="langSelector">
